@@ -9,9 +9,7 @@ The following folders are provided:
 - [random steps experiment](step_experiment/): plots of different metrics vs. initial random steps
 
 ## Official solution
-The solution is given in different versions, depending on the size of the problem:
-- A* algorithm for size N, such that $2 \leq N \leq 7$
-- greedy best first approach for greater size (TODO: select max one).
+The solution is given using A* approach for size N, such that $2 \leq N \leq 7$. Larger problems have time issues.
 
 ### Problem initialization
 Since the game is not guaranteed to have a valid solution (and we want how algorithm to converge), the initialization is implemented by starting from the final *goal* configuration and randomly perform actions to move the empty tile in other positions.
